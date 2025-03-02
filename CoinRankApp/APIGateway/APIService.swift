@@ -29,7 +29,7 @@ class APIService {
             if error != nil{
                 onCompletion(nil, error)
             } else {
-                print("Result2-",try? JSONSerialization.jsonObject(with: data!, options: .mutableContainers))
+                print("Result2 -",try? JSONSerialization.jsonObject(with: data!, options: .mutableContainers))
                 onCompletion(data, nil)
             }
         }
@@ -57,7 +57,7 @@ class APIService {
             if error != nil{
                 onCompletion(nil, error)
             } else {
-                print("Result2-",try? JSONSerialization.jsonObject(with: data!, options: .mutableContainers))
+                print("Result2 -",try? JSONSerialization.jsonObject(with: data!, options: .mutableContainers))
                 onCompletion(data, nil)
             }
         }
